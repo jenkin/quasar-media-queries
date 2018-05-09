@@ -1,0 +1,79 @@
+/* Section */
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+header > * {
+    flex-grow: 1;
+}
+
+.logo {
+    flex-grow: 0;
+}
+
+.menu {
+    flex-grow: 2;
+}
+
+/* Navs */
+
+header nav ul {
+    flex-direction: row;
+}
+
+aside nav ul {
+    flex-direction: column;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+}
+
+.menu ul {
+    justify-content: space-between;
+}
+
+.share ul {
+    justify-content: flex-end;
+}
+
+/* Main */
+main,
+main > div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+main {
+    flex-grow: 1;
+}
+
+/* Article */
+.article__image {
+    float: left;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}

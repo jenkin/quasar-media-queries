@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+section * {
+    padding: 5px;
+}
+
+body,
+main,
+main > div {
+    padding: 0;
+    margin: 0;
+}
+
+/*section {
+    height: 100vh;
+}*/
+
+header {
+    background-color: darkgray;
+}
+
+footer {
+    background-color: lightgreen;
+}
+
+main {
+    background-color: lightsalmon;
+}
+
+article {
+    background-color: salmon;
+}
+
+aside {
+    background-color: darksalmon;
+}
+
+ul {
+    list-style-type: none;
+    white-space: nowrap;
+}
+
+.logo {
+    height: 2em;
+}
+
+.article__image {
+    max-width: 25%;
+}
